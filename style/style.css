@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .wrapper{
     height: 100vh;
     border: 2px dashed red;
 }
 
-
+p{
+    margin-bottom: 0;
+}
 /*Layout*/
 
 /* NAVBAR*/
@@ -19,7 +26,7 @@
 
 /* SIDEBAR */
 .sidebar{
-    background-image: url(/img/sidebar-bg.png);
     overflow: hidden;
+    background-image: url(../img/sidebar-bg.png);
 }
 
