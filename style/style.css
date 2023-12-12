@@ -13,14 +13,24 @@
     border: 2px dashed blue;
 }
 
+.my-mobile-logo{
+    width: 50px;
+}
+
+
+
+
+
+
+
 .sidebar{
     min-width: 60px;
-    min-height: 100px;
+    min-height: 520%;
     border: 2px dashed violet;
 }
 
 .content{
     min-width: 400px;
     border: 2px dashed green;
-    min-height: 300px;
+    min-height: 520px;
 }
