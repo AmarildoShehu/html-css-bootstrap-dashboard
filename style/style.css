@@ -69,8 +69,8 @@ main{
 
 
 
-@media screen and (min-width:768px){
+@media screen and (min-width:992px){
     .sidebar{
-        flex-basis: 200px;
+        flex-basis: 100px;
     }
 }
