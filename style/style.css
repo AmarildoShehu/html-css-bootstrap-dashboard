@@ -40,7 +40,8 @@ main{
 }
 
 .my-table-font{
-    font-size: smaller;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .class-logo{
@@ -55,6 +56,12 @@ main{
     margin-right: 5px;
 }
 
+.my-square{
+    border: 1px solid #E5E6E8;
+    width: 25px;
+    display: block;
+    text-align: center;
+}
 
 
 
@@ -64,6 +71,6 @@ main{
 
 @media screen and (min-width:768px){
     .sidebar{
-        flex-basis: 230px;
+        flex-basis: 200px;
     }
 }
