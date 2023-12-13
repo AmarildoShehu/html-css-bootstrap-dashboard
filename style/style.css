@@ -23,11 +23,14 @@ p{
 
 .sidebar{
     background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
     flex-basis: 60px;
 }
+
 
 main{
     flex-grow: 1;
