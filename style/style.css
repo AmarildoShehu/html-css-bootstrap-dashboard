@@ -37,6 +37,7 @@ main{
     min-height: 100px;
     background-color:#1B72E8;
     padding: 10px;
+    gap: 5px;
 }
 
 .my-table-font{
@@ -63,6 +64,13 @@ main{
     text-align: center;
 }
 
+.circle-question{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(92, 90, 93);
+    border-radius: 50%;
+    text-align: center;
+}
 
 
 
