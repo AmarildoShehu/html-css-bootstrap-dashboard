@@ -8,6 +8,8 @@ p{
 .page-header{
     height: 80px;
     background-color: #F7F8F9;
+    display: flex;
+    text-align: center;
 }
 .my-mobile-logo{
     width: 50px;
