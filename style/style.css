@@ -24,7 +24,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    flex-basis: 60px;
+    flex-basis: 80px;
+    flex-shrink: 0;
 }
 
 
@@ -38,7 +39,6 @@ main{
     min-height: 100px;
     background-color:#1B72E8;
     padding: 10px;
-    gap: 5px;
 }
 
 /* OFFCANVAS */
@@ -46,7 +46,7 @@ main{
     width: 100%;
 }
 .badge-bg-color{
-        background-color: #165BBA;
+    background-color: #165BBA;
 }
 .my-table-font{
     font-size: 15px;
@@ -84,7 +84,7 @@ main{
 
 @media screen and (min-width:992px){
     .sidebar{
-        flex-basis: 100px;
+        flex-basis: 160px;
     }
     .main-header .offcanvas {
         width: 600px;

@@ -80,12 +80,8 @@
     </nav>
 
   <main>
-
-
-  
-
-      <!-- MAIN HEADER -->
-      <header class="main-header d-md-flex justify-content-md-between ">
+    <!-- MAIN HEADER -->
+      <header class="main-header d-md-flex justify-content-md-between">
         <div class="d-flex order-md-1 pt-lg-2 text-center align-items-center gap-2">
           <h5>Nuovo Studente</h5>
           <a class="fas fa-caret fa-2x bg-white" href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">+</a>
@@ -183,10 +179,9 @@
       </header>
 
 
-      <div class="p-3">
-        <div class="d-lg-flex">
+      <div class="p-3 d-lg-flex gap-3">
           <div class="col">
-            <div class="card">
+            <div class="card mt-2">
               <h5 class="card-header">Prossime Classi</h5>
               <div class="card-body">
                 <table class="table my-table-font">
@@ -373,7 +368,7 @@
               </div>
             </div>
             
-            <div class="card">
+            <div class="card mt-2">
               <h5 class="card-header">F. A. Q.</h5>
               <div class="card-body">
                 <ul class="list-group list-group-flush">
@@ -423,10 +418,51 @@
               </div>
             </div>
           </div>
-          <div class="col">
 
+          <div class="col">
+            <div class="card mt-2">
+              <div class="card-header">
+                  <h5 class="card-title">Todo</h5>
+              </div>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush border rounded-2">
+                      <li class="list-group-item d-flex gap-2">
+                          <input type="checkbox">
+                          Kickoff nuove classi
+                      </li>
+                      <li class="list-group-item d-flex gap-2">
+                          <input type="checkbox">
+                          Lezione su Bootstrap 5 in classe #116
+                      </li>
+                      <li class="list-group-item d-flex gap-2">
+                          <input type="checkbox">
+                          Controllare username github studenti
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body">
+                  <div class="card-body border border-bottom-0 rounded-top-2">
+                      <img src="img/stats.jpeg" class="card-img-top" id="stats" alt="stats">
+                      <h6 class="card-title">Utenti attivi</h6>
+                      <p class="card-text">
+                          Lista degli utenti attivi in piattaforma nell'ultimo mese
+                      </p>
+                  </div>
+
+                  <ul class="list-group list-group-flush border">
+                      <li class="list-group-item">Gennaio: 1200</li>
+                      <li class="list-group-item">Febbraio: 800</li>
+                      <li class="list-group-item">Marzo: 1500</li>
+                  </ul>
+                  <div class="card-footer border border-top-0">
+                      <a href="#" class="card-link text-decoration-underline">Visualizza report
+                          approfondito</a>
+                  </div>
+              </div>
+            </div>
           </div>
-        </div>
       </div>
     </main>
   </div>
