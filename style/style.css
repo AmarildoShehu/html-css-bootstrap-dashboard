@@ -16,6 +16,7 @@
     display: flex;
 }
 
+
 .sidebar{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
@@ -40,6 +41,13 @@ main{
     gap: 5px;
 }
 
+/* OFFCANVAS */
+.main-header .offcanvas {
+    width: 100%;
+}
+.badge-bg-color{
+        background-color: #165BBA;
+}
 .my-table-font{
     font-size: 15px;
     font-weight: 400;
@@ -74,11 +82,11 @@ main{
 
 
 
-
-
-
 @media screen and (min-width:992px){
     .sidebar{
         flex-basis: 100px;
+    }
+    .main-header .offcanvas {
+        width: 600px;
     }
 }

@@ -71,75 +71,8 @@
 
   <main>
 
-    <!-- Offcanvas -->
-      <div class="offcanvas offcanvas-end w-100" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo studente</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <form class="row g-3">
-            <div class="col-6">
-              <label for="inputName4" class="form-label">Nome</label>
-              <input type="email" class="form-control" id="inputNsme4">
-            </div>
-            <div class="col-6">
-              <label for="inputCognome4" class="form-label">Cognome</label>
-              <input type="password" class="form-control" id="inputCognome4">
-            </div>
-            <div class="col-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <div class="input-group ">
-                <span class="input-group-text" id="basic-addon1">@</span>
-                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <div class="col-6">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-              <label for="inputIndirizzo4" class="form-label">Indirizzo</label>
-              <input type="password" class="form-control" id="inputIndirizzo4">
-            </div>
-            <div class="col-6">
-              <label for="inputCittà4" class="form-label">Città</label>
-              <input type="password" class="form-control" id="inputCittà4">
-            </div>
-            <div class="col-4">
-              <label for="inputCittà4" class="form-label">Stato</label>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Scegli</option>
-                <option value="1">Albania</option>
-                <option value="2">Italia</option>
-                <option value="3">Svizzera</option>
-              </select>
-            </div>
-            <div class="col-2">
-              <label for="inputCAP4" class="form-label">CAP</label>
-              <input type="password" class="form-control" id="inputCAP4">
-            </div>
-            <div class="col-12">
-              <label for="inputFoto4" class="form-label">Foto</label>
-              <div class="input-group ">
-                <span class="input-group-text" id="basic-addon1">Scegli File</span>
-                <input type="text" class="form-control" placeholder="nessun file selezionato" aria-label="Username" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">
-                Seleziona per proseguire
-              </label>
-            </div>
-            <div>
-              <input class="btn btn-primary" type="submit" value="Salva">
-              <input class="btn btn-warning" type="submit" value="Svuota">
-            </div>
-            
-          </form>
-        </div>
-      </div>
+
+  
 
       <!-- MAIN HEADER -->
       <header class="main-header d-md-flex justify-content-md-between ">
@@ -147,20 +80,90 @@
           <h5>Nuovo Studente</h5>
           <a class="fa-thin fa-square-plus bg-white" href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></a>
         </div>
+            <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo studente</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+          <form class="row g-3">
+              <div class="col-6">
+                  <label for="inputName4" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="inputName4">
+              </div>
+              <div class="col-6">
+                  <label for="inputCognome4" class="form-label">Cognome</label>
+                  <input type="text" class="form-control" id="inputCognome4">
+              </div>
+              <div class="col-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <div class="input-group ">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                      <input type="email" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+              </div>
+              <div class="col-6">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                  <label for="inputIndirizzo4" class="form-label">Indirizzo</label>
+                  <input type="text" class="form-control" id="inputIndirizzo4">
+              </div>
+              <div class="col-6">
+                  <label for="inputCittà4" class="form-label">Città</label>
+                  <input type="text" class="form-control" id="inputCittà4">
+              </div>
+              <div class="col-4">
+                  <label for="inputStato4" class="form-label">Stato</label>
+                  <select class="form-select" id="inputStato4" aria-label="Default select example">
+                      <option selected>Scegli</option>
+                      <option value="1">Albania</option>
+                      <option value="2">Italia</option>
+                      <option value="3">Svizzera</option>
+                  </select>
+              </div>
+              <div class="col-2">
+                  <label for="inputCAP4" class="form-label">CAP</label>
+                  <input type="text" class="form-control" id="inputCAP4">
+              </div>
+              <div class="col-12">
+                  <label for="inputFoto4" class="form-label">Foto</label>
+                  <div class="input-group ">
+                      <span class="input-group-text" id="basic-addon1">Scegli File</span>
+                      <input type="text" class="form-control" placeholder="nessun file selezionato" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                      Seleziona per proseguire
+                  </label>
+              </div>
+              <div>
+                  <input class="btn btn-primary" type="submit" value="Salva">
+                  <input class="btn btn-warning" type="submit" value="Svuota">
+              </div>
+          </form>
+      </div>
+  </div>
         <div>
           <span class="h2">Boolean</span>
-          <span class="badge rounded-pill bg-primary-subtle">
+          <span class="badge rounded-pill badge-bg-color">
             Piano Blaze
           </span>
           <div>
-            <span class="badge rounded-pill bg-primary-subtle">
+            <span class="badge rounded-pill badge-bg-color">
               3 App
             </span>
-            <span>>></span>
-            <span><i class="badge rounded-pill bg-primary-subtle">+</i></span>
-            <span class="d-none d-lg-inline-block"><i class="badge rounded-pill bg-primary-subtle">Boolean mobile app</i></span>
-            <span class="d-none d-lg-inline-block"><i class="badge rounded-pill bg-primary-subtle">Boolean web app</i></span>
-            <span class="d-none d-lg-inline-block"><i class="badge rounded-pill bg-primary-subtle">Boolean blog app</i></span>
+            <i class="fa-solid fa-angles-right fa-xs"></i>
+            <span class="badge rounded-pill d-lg-none badge-bg-color">
+              <i class="fas fa-plus fa-xs"></i>
+          </span>
+            <span class="d-none d-lg-inline-block badge rounded-pill badge-bg-color">Boolean mobile app</span>
+            <span class="d-none d-lg-inline-block badge rounded-pill badge-bg-color">Boolean web app</span>
+            <span class="d-none d-lg-inline-block badge rounded-pill badge-bg-color">Boolean blog app</span>
           </div>
         </div>
         <div class="pt-2">
