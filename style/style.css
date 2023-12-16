@@ -1,4 +1,8 @@
 /*Layout*/
+/* UTILS */
+.table-width{
+    width: 100px;
+}
 
 /* NAVBAR*/
 .page-header{
@@ -30,7 +34,6 @@
 
 
 main{
-    flex-grow: 1;
     background-color: white;
     overflow: auto;
 }
@@ -88,5 +91,8 @@ main{
     }
     .main-header .offcanvas {
         width: 600px;
+    }
+    .table-width{
+        width: auto;
     }
 }
