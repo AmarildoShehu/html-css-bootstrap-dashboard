@@ -4,6 +4,10 @@
     width: 100px;
 }
 
+.hover-effect:hover{
+    background-color: #ffffff67;
+    cursor: pointer;
+}
 /* NAVBAR*/
 .page-header{
     height: 80px;
